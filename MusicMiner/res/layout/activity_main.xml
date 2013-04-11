@@ -1,0 +1,27 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orig_background" >
+
+    <Button
+        android:id="@+id/btn_trending"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="122dp"
+        android:layout_marginRight="26dp"
+        android:layout_x="136dp"
+        android:layout_y="309dp"
+        android:text="Trending" />
+
+    <Button
+        android:id="@+id/btn_getSuggestions"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="49dp"
+        android:layout_x="136dp"
+        android:layout_y="220dp"
+        android:text="Get Suggestions" />
+
+</AbsoluteLayout>
